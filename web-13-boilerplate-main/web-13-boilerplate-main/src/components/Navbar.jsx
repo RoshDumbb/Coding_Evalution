@@ -15,15 +15,16 @@ const links = [
 export const Navbar = () => {
   return (
     <div className="Navbar">
+      
       <Link id="header-link-home" to={"/"}>
         Home
       </Link>
       <Link id="header-link-about" to={"/about"}>
         About
       </Link>
-      {/* <Link id="header-link-movies" to={"/movies"}>
+      <Link id="header-link-movies" to={"/movies"}>
         Movies
-      </Link> */}
+      </Link>
     </div>
   );
   //map through the link ad display it in header

@@ -5,6 +5,7 @@ import Home from './components/Home';
 import { Routes, Route } from "react-router-dom"
 import About from './components/About';
 import { MoviesDashboard } from './components/MoviesDashboard';
+import { SingleMovieDetails } from './components/SingleMovieDetails';
  
 
 
@@ -17,11 +18,14 @@ function App() {
           Home
         </Route>
         <Route path={"/about"} element={<About />}>
-         About
+          About
         </Route>
-        {/* <Route path={"/movies/:id"} element={<MoviesDashboard />}>
+        <Route path={"/movies"} element={<MoviesDashboard />}>
           Movies
-        </Route> */}
+        </Route>
+        <Route path={"/:id"} element={<SingleMovieDetails/>}>
+          Movies
+        </Route>
       </Routes>
     </div>
   );
