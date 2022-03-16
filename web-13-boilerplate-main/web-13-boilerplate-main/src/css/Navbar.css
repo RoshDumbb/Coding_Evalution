@@ -1,0 +1,17 @@
+body{
+    background-color: lightgray;
+}
+.Navbar{
+    width: 100%;
+    height: auto;
+    background-color: rgb(113, 184, 42);
+    color: azure;
+}
+#header-link-home{
+   padding-right: 2%;
+    color: rgb(12, 12, 11);
+}
+#header-link-about{
+    color: rgb(12, 12, 11);
+   margin-right: 50px;
+}
